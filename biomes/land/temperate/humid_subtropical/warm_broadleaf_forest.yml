@@ -1,0 +1,17 @@
+id: WARM_BROADLEAF_FOREST
+type: BIOME
+extends: BROADLEAF_FOREST
+vanilla: minecraft:flower_forest
+color: $biomes/colors.yml:WARM_BROADLEAF_FOREST
+
+colors:
+  grass: 0x60bf4b
+  foliage: 0x80c465
+  water: 0x0677ce
+  water-fog: 0x0677ce
+
+features:
+  flora:
+    - GRASS
+    - MIXED_FLOWER_COVER
+    - BEETROOT_PATCHES
