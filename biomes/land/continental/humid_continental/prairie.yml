@@ -4,15 +4,18 @@ extends: [ EQ_LAND, CARVING_LAND, BASE ]
 vanilla: minecraft:plains
 color: $biomes/colors.yml:PRAIRIE
 
+# Description:
+# The prairie is a temperate grassland biome containing yellow grass, an abundance of farm animals, and fertile soil.
+
 tags:
   - LAND_CAVES
   - USE_RIVER_TEMPERATE_MARSH
 
 colors:
-  grass: 0x72b95d
-  foliage: 0x5dae53
-  water: 0x44aff5
-  water-fog: 0x44aff5
+  grass: 0xC9D6A3
+  foliage: 0xB2BC71
+  water: 0x2C8B9C
+  water-fog: 0x2C8B9C
 
 palette:
   - GRASS: 319
@@ -28,5 +31,4 @@ features:
     - OXEYE_DAISY_PATCH
     - CORNFLOWER_PATCH
     - SUNFLOWER_PATCH
-    - SPARSE_OAK_TREES
     - CARROT_PATCHES

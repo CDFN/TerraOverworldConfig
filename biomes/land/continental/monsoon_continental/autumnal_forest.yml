@@ -1,18 +1,18 @@
-id: BIRCH_FOREST
+id: AUTUMNAL_FOREST
 type: BIOME
 extends: [ EQ_MULTI_TERRACED_LAND, CARVING_LAND, BASE ]
 vanilla: minecraft:birch_forest
-color: $biomes/colors.yml:BIRCH_FOREST
+color: $biomes/colors.yml:AUTUMNAL_FOREST
 
 tags:
   - LAND_CAVES
   - USE_RIVER
 
 colors:
-  grass: 0x97BA66
-  foliage: 0xF0AB22
-  water: 0x0677ce
-  water-fog: 0x0677ce
+  grass: 0xF79C3B
+  foliage: 0xFF9C19
+  water: 0x1e97f2
+  water-fog: 0x1e97f2
 
 palette:
   - GRASS: 319
@@ -21,9 +21,9 @@ palette:
   - << meta.yml:palette-bottom
 
 slant:
-  - threshold: 3
+  - threshold: 3.5
     palette:
-      - BLOCK:minecraft:stone: 319
+      - GRANITE_SLANT: 319
       - << meta.yml:palette-bottom
 
 features:
@@ -35,6 +35,6 @@ features:
     - PEONY_PATCH
     - LILAC_PATCH
     - LILY_OF_THE_VALLEY_PATCH
+    - PUMPKIN_PATCHES
   trees:
-    - BIRCH_TREES
-    - AUTUMN_BUSHES
+    - SEASONAL_TREES

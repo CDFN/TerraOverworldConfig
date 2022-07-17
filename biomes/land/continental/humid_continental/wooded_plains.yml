@@ -1,24 +1,24 @@
-id: OAK_SAVANNA
+id: WOODED_PLAINS
 type: BIOME
 extends: [ EQ_LAND, CARVING_LAND, BASE ]
 vanilla: minecraft:plains
-color: $biomes/colors.yml:OAK_SAVANNA
+color: $biomes/colors.yml:PLAINS
 
 # Description:
-# The oak savanna is a lightly forested grassland containing dark oak trees. Can be considered a variant of prairie.
+# The wooded plains is a temperate grassland biome containing green grass and sparse oak trees.
 
 tags:
   - LAND_CAVES
   - USE_RIVER_TEMPERATE_MARSH
 
 colors:
-  grass: 0xC9D6A3
-  foliage: 0xB0C978
-  water: 0x2C8B9C
-  water-fog: 0x2C8B9C
+  grass: 0x91bd59
+  foliage: 0x77ab2f
+  water: 0x44aff5
+  water-fog: 0x44aff5
 
 palette:
-  - GRASS_VARIATION: 319
+  - GRASS: 319
   - SAND: 64
   - MUDDY_BEACH: 61
   - << meta.yml:palette-bottom
@@ -28,13 +28,11 @@ slant:
     palette:
       - BLOCK:minecraft:stone: 319
       - << meta.yml:palette-bottom
-      
 
 features:
   flora:
     - GRASS
     - POPPY_PATCH
     - DANDELION_PATCH
-    - PUMPKIN_PATCHES
   trees:
-    - DARK_OAK_TREES
+    - SPARSE_OAK_TREES

@@ -1,0 +1,10 @@
+id: SUNFLOWER_PRAIRIE
+type: BIOME
+extends: PRAIRIE
+vanilla: minecraft:sunflower_plains
+color: $biomes/colors.yml:SUNFLOWER_PRAIRIE
+
+features:
+  flora:
+    - GRASS
+    - SUNFLOWER_COVER
